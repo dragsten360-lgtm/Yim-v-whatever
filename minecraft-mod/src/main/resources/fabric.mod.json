@@ -9,8 +9,8 @@
     "main": ["com.example.examplemod.ExampleMod"]
   },
   "depends": {
-    "fabricloader": ">=0.14.27",
+    "fabricloader": ">=0.19.3",
     "fabric": "*",
-    "minecraft": "1.20.2"
+    "minecraft": "1.21.11"
   }
 }
