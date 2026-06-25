@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "examplemod:item/mythic_blade"
+    "layer0": "examplemod:item/mythic_hoe"
   }
 }

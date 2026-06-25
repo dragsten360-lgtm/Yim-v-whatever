@@ -1,5 +1,15 @@
 {
   "itemGroup.examplemod": "Example Mod",
   "item.examplemod.mythic_blade": "Mythic Blade",
+  "item.examplemod.mythic_axe": "Mythic Axe",
+  "item.examplemod.mythic_pickaxe": "Mythic Pickaxe",
+  "item.examplemod.mythic_shovel": "Mythic Shovel",
+  "item.examplemod.mythic_hoe": "Mythic Hoe",
+  "item.examplemod.mythic_helmet": "Mythic Helmet",
+  "item.examplemod.mythic_chestplate": "Mythic Chestplate",
+  "item.examplemod.mythic_leggings": "Mythic Leggings",
+  "item.examplemod.mythic_boots": "Mythic Boots",
+  "item.examplemod.mythic_shield": "Mythic Shield",
+  "item.examplemod.mythic_elytra": "Mythic Elytra",
   "message.examplemod.hello": "Hello from Example Mod!"
 }

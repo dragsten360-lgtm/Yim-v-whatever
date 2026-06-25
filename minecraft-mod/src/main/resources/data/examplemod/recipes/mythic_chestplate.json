@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " I ",
-    " I ",
-    " S "
+    "I I",
+    "III",
+    "III"
   ],
   "key": {
     "I": {
       "item": "minecraft:netherite_ingot"
-    },
-    "S": {
-      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "examplemod:mythic_blade",
+    "item": "examplemod:mythic_chestplate",
     "count": 1
   }
 }

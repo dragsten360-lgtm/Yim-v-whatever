@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " I ",
-    " I ",
+    " S ",
     " S "
   ],
   "key": {
@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "examplemod:mythic_blade",
+    "item": "examplemod:mythic_shovel",
     "count": 1
   }
 }

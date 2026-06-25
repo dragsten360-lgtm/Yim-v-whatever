@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " I ",
-    " I ",
+    "ISI",
+    "III",
     " S "
   ],
   "key": {
@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "examplemod:mythic_blade",
+    "item": "examplemod:mythic_shield",
     "count": 1
   }
 }
