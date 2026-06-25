@@ -73,29 +73,29 @@ public class ModItems {
             .fireproof().rarity(Rarity.EPIC).maxCount(64));
 
     // Heavenly set: blade, tools, and armor
-    public static final Item HEAVENLY_BLADE = new SwordItem(HeavenlyToolMaterial.INSTANCE, 6, -2.3F,
-            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.UNCOMMON));
-    public static final Item HEAVENLY_AXE = new AxeItem(HeavenlyToolMaterial.INSTANCE, 5.5F, -2.9F,
-            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.UNCOMMON));
-    public static final Item HEAVENLY_PICKAXE = new PickaxeItem(HeavenlyToolMaterial.INSTANCE, 1, -2.7F,
-            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.UNCOMMON));
-    public static final Item HEAVENLY_SHOVEL = new ShovelItem(HeavenlyToolMaterial.INSTANCE, 1.75F, -3.0F,
-            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.UNCOMMON));
-    public static final Item HEAVENLY_HOE = new HoeItem(HeavenlyToolMaterial.INSTANCE, -1.5F, new FabricItemSettings()
-            .group(ItemGroup.TOOLS).fireproof().rarity(Rarity.UNCOMMON));
+    public static final Item HEAVENLY_BLADE = new SwordItem(HeavenlyToolMaterial.INSTANCE, 9, -2.1F,
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.EPIC));
+    public static final Item HEAVENLY_AXE = new AxeItem(HeavenlyToolMaterial.INSTANCE, 8, -2.8F,
+            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
+    public static final Item HEAVENLY_PICKAXE = new PickaxeItem(HeavenlyToolMaterial.INSTANCE, 2, -2.6F,
+            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
+    public static final Item HEAVENLY_SHOVEL = new ShovelItem(HeavenlyToolMaterial.INSTANCE, 2.5F, -2.8F,
+            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
+    public static final Item HEAVENLY_HOE = new HoeItem(HeavenlyToolMaterial.INSTANCE, -1, new FabricItemSettings()
+            .group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
     
     public static final Item HEAVENLY_HELMET = new ArmorItem(HeavenlyArmorMaterial.INSTANCE, EquipmentSlot.HEAD,
-            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.UNCOMMON));
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.EPIC));
     public static final Item HEAVENLY_CHESTPLATE = new ArmorItem(HeavenlyArmorMaterial.INSTANCE, EquipmentSlot.CHEST,
-            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.UNCOMMON));
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.EPIC));
     public static final Item HEAVENLY_LEGGINGS = new ArmorItem(HeavenlyArmorMaterial.INSTANCE, EquipmentSlot.LEGS,
-            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.UNCOMMON));
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.EPIC));
     public static final Item HEAVENLY_BOOTS = new ArmorItem(HeavenlyArmorMaterial.INSTANCE, EquipmentSlot.FEET,
-            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.UNCOMMON));
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.EPIC));
     public static final Item HEAVENLY_SHIELD = new ShieldItem(new FabricItemSettings().group(ItemGroup.COMBAT)
-            .fireproof().maxCount(1).rarity(Rarity.UNCOMMON));
+            .fireproof().maxCount(1).rarity(Rarity.EPIC));
     public static final Item HEAVENLY_ELYTRA = new ElytraItem(new FabricItemSettings().group(ItemGroup.COMBAT)
-            .fireproof().rarity(Rarity.UNCOMMON));
+            .fireproof().rarity(Rarity.EPIC));
 
     public static void registerModItems() {
         Registry.register(Registries.ITEM, new Identifier("examplemod", "mythic_blade"), MYTHIC_BLADE);
@@ -300,17 +300,17 @@ public class ModItems {
 
         @Override
         public int getDurability() {
-            return 2200;
+            return 3800;
         }
 
         @Override
         public float getMiningSpeedMultiplier() {
-            return 11.0F;
+            return 16.0F;
         }
 
         @Override
         public float getAttackDamage() {
-            return 3.5F;
+            return 6.5F;
         }
 
         @Override
@@ -320,7 +320,7 @@ public class ModItems {
 
         @Override
         public int getEnchantability() {
-            return 20;
+            return 30;
         }
 
         @Override
@@ -347,7 +347,7 @@ public class ModItems {
 
         @Override
         public int getEnchantability() {
-            return 24;
+            return 32;
         }
 
         @Override
@@ -367,12 +367,12 @@ public class ModItems {
 
         @Override
         public float getToughness() {
-            return 2.5F;
+            return 5.0F;
         }
 
         @Override
         public float getKnockbackResistance() {
-            return 0.08F;
+            return 0.2F;
         }
     }
 }
